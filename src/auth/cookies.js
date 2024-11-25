@@ -10,6 +10,13 @@ function parseNetscapeCookies(content) {
   const cookies = [];
   const lines = content.split('\n');
 
+  // Domain mapping for X Pro cookies
+  const domainMap = {
+    '.twitter.com': '.x.com',
+    'twitter.com': '.x.com',
+    '.x.com': '.x.com'
+  };
+
   for (const line of lines) {
     // Skip comments and empty lines
     if (line.startsWith('#') || !line.trim()) continue;
@@ -19,15 +26,32 @@ function parseNetscapeCookies(content) {
 
     const [domain, httpOnly, cookiePath, secure, expiry, name, value] = parts;
     
-    cookies.push({
+    // Map the domain correctly
+    const mappedDomain = domainMap[domain] || domain;
+    
+    // Create cookie object with both .x.com and .twitter.com domains
+    const cookieBase = {
       name,
       value,
-      domain: domain.startsWith('.') ? domain : '.' + domain,
       path: cookiePath,
       secure: secure.toLowerCase() === 'true',
       httpOnly: httpOnly.toLowerCase() === 'true',
       expiry: parseInt(expiry, 10)
+    };
+
+    // Add cookie for .x.com domain
+    cookies.push({
+      ...cookieBase,
+      domain: mappedDomain
     });
+
+    // Add same cookie for .twitter.com domain if it's a critical cookie
+    if (['auth_token', 'ct0', 'personalization_id'].includes(name)) {
+      cookies.push({
+        ...cookieBase,
+        domain: '.twitter.com'
+      });
+    }
   }
 
   return cookies;
@@ -48,40 +72,37 @@ async function loadCookies(driver) {
     logger.info('Cleared existing cookies');
 
     let totalCookiesLoaded = 0;
+    let criticalCookiesLoaded = new Set();
 
     for (const file of txtFiles) {
       const filePath = path.join(cookiesPath, file);
       const cookieData = await fs.readFile(filePath, 'utf8');
       
-      // Check if file is empty or only contains comments
-      const nonCommentLines = cookieData.split('\n')
-        .filter(line => line.trim() && !line.startsWith('#'));
-      
-      if (nonCommentLines.length === 0) {
-        logger.warn(`Cookie file ${file} is empty or contains only comments`);
-        continue;
-      }
-
       const cookies = parseNetscapeCookies(cookieData);
       
-      if (cookies.length === 0) {
-        logger.warn(`No valid cookies found in ${file}`);
-        continue;
-      }
-
       for (const cookie of cookies) {
         try {
           await driver.manage().addCookie(cookie);
           totalCookiesLoaded++;
-          logger.debug(`Added cookie: ${cookie.name}`);
+          
+          // Track critical cookies
+          if (['auth_token', 'ct0', 'personalization_id'].includes(cookie.name)) {
+            criticalCookiesLoaded.add(cookie.name);
+          }
+          
+          logger.debug(`Added cookie: ${cookie.name} for domain: ${cookie.domain}`);
         } catch (cookieError) {
-          logger.warn(`Failed to add cookie ${cookie.name}:`, cookieError.message);
+          logger.warn(`Failed to add cookie ${cookie.name} for domain ${cookie.domain}:`, cookieError.message);
         }
       }
     }
     
-    if (totalCookiesLoaded === 0) {
-      throw new Error('No cookies were successfully loaded');
+    // Verify critical cookies
+    if (criticalCookiesLoaded.size < 3) {
+      logger.warn('Not all critical cookies were loaded:', {
+        loaded: Array.from(criticalCookiesLoaded),
+        missing: ['auth_token', 'ct0', 'personalization_id'].filter(c => !criticalCookiesLoaded.has(c))
+      });
     }
 
     logger.info(`Successfully loaded ${totalCookiesLoaded} cookies`);

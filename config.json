@@ -7,8 +7,8 @@
     "scrollDelay": 1000,
     "baseUrl": "https://pro.twitter.com",
     "keywords": [
-      "keyword1",
-      "keyword2"
+      "$PNUT",
+      "crypto"
     ]
   },
   "output": {

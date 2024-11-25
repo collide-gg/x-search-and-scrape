@@ -34,3 +34,331 @@
 {"level":"info","message":"Total cookies set: 8","timestamp":"2024-11-25T15:36:54.633Z"}
 {"level":"info","message":"Page refreshed to apply cookies","timestamp":"2024-11-25T15:36:56.967Z"}
 {"level":"info","message":"Found 3 columns","timestamp":"2024-11-25T15:37:05.001Z"}
+{"level":"info","message":"All required directories and files verified","timestamp":"2024-11-25T15:44:47.785Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T15:44:47.787Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T15:44:56.173Z"}
+{"level":"info","message":"Cleared existing cookies","timestamp":"2024-11-25T15:44:56.179Z"}
+{"level":"info","message":"Successfully loaded 12 cookies","timestamp":"2024-11-25T15:44:56.223Z"}
+{"level":"info","message":"Total cookies set: 8","timestamp":"2024-11-25T15:44:56.227Z"}
+{"level":"info","message":"Page refreshed to apply cookies","timestamp":"2024-11-25T15:44:59.265Z"}
+{"level":"info","message":"Starting column search...","timestamp":"2024-11-25T15:44:59.266Z"}
+{"level":"info","message":"No columns found initially, waiting 8 seconds...","timestamp":"2024-11-25T15:44:59.280Z"}
+{"level":"info","message":"Found 1 columns","timestamp":"2024-11-25T15:45:07.299Z"}
+{"level":"info","message":"Beginning to process 1 columns","timestamp":"2024-11-25T15:45:07.299Z"}
+{"level":"info","message":"Processing column 1 of 1","timestamp":"2024-11-25T15:45:07.299Z"}
+{"level":"info","message":"Processing column for keyword: keyword1","timestamp":"2024-11-25T15:45:07.300Z"}
+{"level":"info","message":"Looking for search field...","timestamp":"2024-11-25T15:45:07.301Z"}
+{"level":"info","message":"Search field found, attempting to focus...","timestamp":"2024-11-25T15:45:07.305Z"}
+{"level":"error","message":"Error focusing search field: Element <div class=\"public-DraftEditorPlaceholder-root public-DraftEditorPlaceholder-hasFocus\"> is not clickable at point (127,108) because another element <div class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"> obscures it","name":"ElementClickInterceptedError","remoteStacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5\nElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:337:5\nwebdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:177:11\ninteraction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:136:11\nclickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:205:29\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:85:31\n","stack":"ElementClickInterceptedError: Element <div class=\"public-DraftEditorPlaceholder-root public-DraftEditorPlaceholder-hasFocus\"> is not clickable at point (127,108) because another element <div class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"> obscures it\n    at Object.throwDecodedError (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\node_modules\\selenium-webdriver\\lib\\error.js:521:15)\n    at parseHttpResponse (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\node_modules\\selenium-webdriver\\lib\\http.js:514:13)\n    at Executor.execute (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\node_modules\\selenium-webdriver\\lib\\http.js:446:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Driver.execute (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\node_modules\\selenium-webdriver\\lib\\webdriver.js:744:17)\n    at async focusSearchField (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:41:5)\n    at async searchAndScrapeColumn (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:63:27)\n    at async scrapeColumns (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:113:9)\n    at async main (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\index.js:15:5)","timestamp":"2024-11-25T15:45:07.314Z"}
+{"level":"info","message":"All required directories and files verified","timestamp":"2024-11-25T15:45:12.918Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T15:45:12.921Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T15:45:21.748Z"}
+{"level":"info","message":"Cleared existing cookies","timestamp":"2024-11-25T15:45:21.759Z"}
+{"level":"info","message":"Successfully loaded 12 cookies","timestamp":"2024-11-25T15:45:21.805Z"}
+{"level":"info","message":"Total cookies set: 8","timestamp":"2024-11-25T15:45:21.808Z"}
+{"level":"info","message":"Page refreshed to apply cookies","timestamp":"2024-11-25T15:45:42.126Z"}
+{"level":"info","message":"Starting column search...","timestamp":"2024-11-25T15:45:42.127Z"}
+{"level":"info","message":"Found 1 columns","timestamp":"2024-11-25T15:45:42.139Z"}
+{"level":"info","message":"Beginning to process 1 columns","timestamp":"2024-11-25T15:45:42.140Z"}
+{"level":"info","message":"Processing column 1 of 1","timestamp":"2024-11-25T15:45:42.141Z"}
+{"level":"info","message":"Processing column for keyword: keyword1","timestamp":"2024-11-25T15:45:42.141Z"}
+{"level":"info","message":"Looking for search field...","timestamp":"2024-11-25T15:45:42.142Z"}
+{"level":"info","message":"Search field found, attempting to focus...","timestamp":"2024-11-25T15:45:42.148Z"}
+{"level":"error","message":"Error focusing search field: Element <div class=\"public-DraftEditorPlaceholder-root public-DraftEditorPlaceholder-hasFocus\"> is not clickable at point (127,108) because another element <div class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"> obscures it","name":"ElementClickInterceptedError","remoteStacktrace":"RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:193:5\nElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:337:5\nwebdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:177:11\ninteraction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:136:11\nclickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:205:29\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:85:31\n","stack":"ElementClickInterceptedError: Element <div class=\"public-DraftEditorPlaceholder-root public-DraftEditorPlaceholder-hasFocus\"> is not clickable at point (127,108) because another element <div class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"> obscures it\n    at Object.throwDecodedError (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\node_modules\\selenium-webdriver\\lib\\error.js:521:15)\n    at parseHttpResponse (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\node_modules\\selenium-webdriver\\lib\\http.js:514:13)\n    at Executor.execute (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\node_modules\\selenium-webdriver\\lib\\http.js:446:28)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Driver.execute (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\node_modules\\selenium-webdriver\\lib\\webdriver.js:744:17)\n    at async focusSearchField (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:41:5)\n    at async searchAndScrapeColumn (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:63:27)\n    at async scrapeColumns (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:113:9)\n    at async main (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\index.js:15:5)","timestamp":"2024-11-25T15:45:42.163Z"}
+{"level":"info","message":"All required directories and files verified","timestamp":"2024-11-25T15:46:45.064Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T15:46:45.066Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T15:46:51.558Z"}
+{"level":"info","message":"Cleared existing cookies","timestamp":"2024-11-25T15:46:51.563Z"}
+{"level":"info","message":"Successfully loaded 12 cookies","timestamp":"2024-11-25T15:46:51.609Z"}
+{"level":"info","message":"Total cookies set: 8","timestamp":"2024-11-25T15:46:51.612Z"}
+{"level":"info","message":"Page refreshed to apply cookies","timestamp":"2024-11-25T15:46:54.405Z"}
+{"level":"info","message":"Starting column search...","timestamp":"2024-11-25T15:46:54.406Z"}
+{"level":"info","message":"No columns found initially, waiting 8 seconds...","timestamp":"2024-11-25T15:46:54.429Z"}
+{"level":"info","message":"Found 1 columns","timestamp":"2024-11-25T15:47:02.456Z"}
+{"level":"info","message":"Beginning to process 1 columns","timestamp":"2024-11-25T15:47:02.457Z"}
+{"level":"info","message":"Processing column 1 of 1","timestamp":"2024-11-25T15:47:02.457Z"}
+{"level":"info","message":"Processing column for keyword: keyword1","timestamp":"2024-11-25T15:47:02.458Z"}
+{"level":"info","message":"Looking for search field...","timestamp":"2024-11-25T15:47:02.459Z"}
+{"level":"info","message":"Found search field with selector: .public-DraftEditorPlaceholder-root","timestamp":"2024-11-25T15:47:02.478Z"}
+{"level":"info","message":"Found search field with selector: .public-DraftEditor-content","timestamp":"2024-11-25T15:47:02.499Z"}
+{"level":"info","message":"Successfully clicked search field","timestamp":"2024-11-25T15:47:02.733Z"}
+{"level":"info","message":"Search field interaction successful","timestamp":"2024-11-25T15:47:03.278Z"}
+{"level":"info","message":"Cleared existing search text","timestamp":"2024-11-25T15:47:04.298Z"}
+{"level":"info","message":"Entered search keyword: keyword1","timestamp":"2024-11-25T15:47:04.360Z"}
+{"level":"info","message":"Triggered search","timestamp":"2024-11-25T15:47:04.381Z"}
+{"level":"info","message":"Processing column for keyword: keyword2","timestamp":"2024-11-25T15:47:06.396Z"}
+{"level":"info","message":"Looking for search field...","timestamp":"2024-11-25T15:47:06.397Z"}
+{"level":"info","message":"Found search field with selector: .public-DraftEditor-content","timestamp":"2024-11-25T15:47:06.418Z"}
+{"level":"info","message":"Successfully clicked search field","timestamp":"2024-11-25T15:47:06.633Z"}
+{"level":"info","message":"Search field interaction successful","timestamp":"2024-11-25T15:47:07.238Z"}
+{"level":"info","message":"Cleared existing search text","timestamp":"2024-11-25T15:47:08.283Z"}
+{"level":"info","message":"Entered search keyword: keyword2","timestamp":"2024-11-25T15:47:08.347Z"}
+{"level":"info","message":"Triggered search","timestamp":"2024-11-25T15:47:08.367Z"}
+{"level":"info","message":"All required directories and files verified","timestamp":"2024-11-25T15:49:11.448Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T15:49:11.451Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T15:49:18.147Z"}
+{"level":"info","message":"Cleared existing cookies","timestamp":"2024-11-25T15:49:18.155Z"}
+{"level":"info","message":"Successfully loaded 12 cookies","timestamp":"2024-11-25T15:49:18.196Z"}
+{"level":"info","message":"Total cookies set: 8","timestamp":"2024-11-25T15:49:18.200Z"}
+{"level":"info","message":"Page refreshed to apply cookies","timestamp":"2024-11-25T15:49:23.910Z"}
+{"level":"info","message":"Starting column search...","timestamp":"2024-11-25T15:49:23.911Z"}
+{"level":"info","message":"No columns found initially, waiting 8 seconds...","timestamp":"2024-11-25T15:49:23.924Z"}
+{"level":"info","message":"Found 1 columns","timestamp":"2024-11-25T15:49:31.945Z"}
+{"level":"info","message":"Beginning to process 1 columns","timestamp":"2024-11-25T15:49:31.946Z"}
+{"level":"info","message":"Processing column 1 of 1","timestamp":"2024-11-25T15:49:31.947Z"}
+{"level":"info","message":"Processing column for keyword: keyword1","timestamp":"2024-11-25T15:49:31.948Z"}
+{"level":"info","message":"Looking for search field...","timestamp":"2024-11-25T15:49:31.949Z"}
+{"level":"error","message":"Error focusing search field: Could not find interactive search field with any known selector","stack":"Error: Could not find interactive search field with any known selector\n    at focusSearchField (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:93:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async searchAndScrapeColumn (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:105:27)\n    at async scrapeColumns (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:155:9)\n    at async main (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\index.js:15:5)","timestamp":"2024-11-25T15:49:31.976Z"}
+{"level":"info","message":"All required directories and files verified","timestamp":"2024-11-25T15:49:37.341Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T15:49:37.343Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T15:49:44.046Z"}
+{"level":"info","message":"Cleared existing cookies","timestamp":"2024-11-25T15:49:44.053Z"}
+{"level":"info","message":"Successfully loaded 12 cookies","timestamp":"2024-11-25T15:49:44.096Z"}
+{"level":"info","message":"Total cookies set: 8","timestamp":"2024-11-25T15:49:44.100Z"}
+{"level":"info","message":"Page refreshed to apply cookies","timestamp":"2024-11-25T15:49:46.608Z"}
+{"level":"info","message":"Starting column search...","timestamp":"2024-11-25T15:49:46.609Z"}
+{"level":"info","message":"No columns found initially, waiting 8 seconds...","timestamp":"2024-11-25T15:49:46.620Z"}
+{"level":"info","message":"Found 1 columns","timestamp":"2024-11-25T15:49:54.637Z"}
+{"level":"info","message":"Beginning to process 1 columns","timestamp":"2024-11-25T15:49:54.637Z"}
+{"level":"info","message":"Processing column 1 of 1","timestamp":"2024-11-25T15:49:54.638Z"}
+{"level":"info","message":"Processing column for keyword: keyword1","timestamp":"2024-11-25T15:49:54.638Z"}
+{"level":"info","message":"Looking for search field...","timestamp":"2024-11-25T15:49:54.638Z"}
+{"level":"error","message":"Error focusing search field: Could not find interactive search field with any known selector","stack":"Error: Could not find interactive search field with any known selector\n    at focusSearchField (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:93:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async searchAndScrapeColumn (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:105:27)\n    at async scrapeColumns (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:155:9)\n    at async main (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\index.js:15:5)","timestamp":"2024-11-25T15:49:54.660Z"}
+{"level":"info","message":"All required directories and files verified","timestamp":"2024-11-25T15:50:31.632Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T15:50:31.634Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T15:50:41.193Z"}
+{"level":"info","message":"Cleared existing cookies","timestamp":"2024-11-25T15:50:41.200Z"}
+{"level":"info","message":"Successfully loaded 12 cookies","timestamp":"2024-11-25T15:50:41.245Z"}
+{"level":"info","message":"Total cookies set: 8","timestamp":"2024-11-25T15:50:41.248Z"}
+{"level":"info","message":"Page refreshed to apply cookies","timestamp":"2024-11-25T15:50:45.116Z"}
+{"level":"info","message":"Starting column search...","timestamp":"2024-11-25T15:50:45.117Z"}
+{"level":"info","message":"No columns found initially, waiting 8 seconds...","timestamp":"2024-11-25T15:50:45.138Z"}
+{"level":"info","message":"Found 1 columns","timestamp":"2024-11-25T15:50:53.152Z"}
+{"level":"info","message":"Beginning to process 1 columns","timestamp":"2024-11-25T15:50:53.153Z"}
+{"level":"info","message":"Processing column 1 of 1","timestamp":"2024-11-25T15:50:53.154Z"}
+{"level":"info","message":"Processing column for keyword: keyword1","timestamp":"2024-11-25T15:50:53.155Z"}
+{"level":"info","message":"Looking for search field...","timestamp":"2024-11-25T15:50:53.156Z"}
+{"level":"error","message":"Error focusing search field: Could not find interactive search field with any known selector","stack":"Error: Could not find interactive search field with any known selector\n    at focusSearchField (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:93:11)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async searchAndScrapeColumn (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:105:27)\n    at async scrapeColumns (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:155:9)\n    at async main (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\index.js:15:5)","timestamp":"2024-11-25T15:50:53.188Z"}
+{"level":"info","message":"All required directories and files verified","timestamp":"2024-11-25T15:52:22.522Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T15:52:22.524Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T15:52:28.052Z"}
+{"level":"info","message":"Cleared existing cookies","timestamp":"2024-11-25T15:52:28.059Z"}
+{"level":"info","message":"Successfully loaded 12 cookies","timestamp":"2024-11-25T15:52:28.099Z"}
+{"level":"info","message":"Total cookies set: 8","timestamp":"2024-11-25T15:52:28.104Z"}
+{"level":"info","message":"Page refreshed to apply cookies","timestamp":"2024-11-25T15:52:30.997Z"}
+{"level":"info","message":"Starting column search...","timestamp":"2024-11-25T15:52:30.998Z"}
+{"level":"info","message":"No columns found initially, waiting 8 seconds...","timestamp":"2024-11-25T15:52:31.010Z"}
+{"level":"info","message":"Found 0 columns","timestamp":"2024-11-25T15:52:39.027Z"}
+{"level":"info","message":"All required directories and files verified","timestamp":"2024-11-25T15:53:43.099Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T15:53:43.102Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T15:53:48.700Z"}
+{"level":"info","message":"Cleared existing cookies","timestamp":"2024-11-25T15:53:48.714Z"}
+{"level":"warn","message":"Failed to add cookie guest_id_marketing for domain .x.com:","timestamp":"2024-11-25T15:53:48.726Z"}
+{"level":"warn","message":"Failed to add cookie guest_id_ads for domain .x.com:","timestamp":"2024-11-25T15:53:48.730Z"}
+{"level":"warn","message":"Failed to add cookie guest_id for domain .x.com:","timestamp":"2024-11-25T15:53:48.733Z"}
+{"level":"warn","message":"Failed to add cookie personalization_id for domain .x.com:","timestamp":"2024-11-25T15:53:48.739Z"}
+{"level":"warn","message":"Failed to add cookie gt for domain .x.com:","timestamp":"2024-11-25T15:53:48.744Z"}
+{"level":"warn","message":"Failed to add cookie _twitter_sess for domain .x.com:","timestamp":"2024-11-25T15:53:48.748Z"}
+{"level":"warn","message":"Failed to add cookie kdt for domain .x.com:","timestamp":"2024-11-25T15:53:48.750Z"}
+{"level":"warn","message":"Failed to add cookie auth_token for domain .x.com:","timestamp":"2024-11-25T15:53:48.755Z"}
+{"level":"warn","message":"Failed to add cookie ct0 for domain .x.com:","timestamp":"2024-11-25T15:53:48.761Z"}
+{"level":"warn","message":"Failed to add cookie att for domain .x.com:","timestamp":"2024-11-25T15:53:48.767Z"}
+{"level":"warn","message":"Failed to add cookie twid for domain .x.com:","timestamp":"2024-11-25T15:53:48.773Z"}
+{"level":"info","message":"Successfully loaded 4 cookies","timestamp":"2024-11-25T15:53:48.773Z"}
+{"level":"info","message":"Total cookies set: 3","timestamp":"2024-11-25T15:53:48.775Z"}
+{"level":"info","message":"Page refreshed to apply cookies","timestamp":"2024-11-25T15:53:51.025Z"}
+{"level":"info","message":"Starting column search...","timestamp":"2024-11-25T15:53:51.026Z"}
+{"level":"info","message":"No columns found initially, waiting 8 seconds...","timestamp":"2024-11-25T15:53:51.045Z"}
+{"level":"info","message":"Found 1 columns","timestamp":"2024-11-25T15:53:59.060Z"}
+{"level":"info","message":"Beginning to process 1 columns","timestamp":"2024-11-25T15:53:59.061Z"}
+{"level":"info","message":"Processing column 1 of 1","timestamp":"2024-11-25T15:53:59.061Z"}
+{"level":"info","message":"Processing column for keyword: keyword1","timestamp":"2024-11-25T15:53:59.062Z"}
+{"level":"info","message":"Looking for search field...","timestamp":"2024-11-25T15:53:59.063Z"}
+{"level":"info","message":"Found search field with selector: [contenteditable=\"true\"]","timestamp":"2024-11-25T15:54:26.396Z"}
+{"level":"info","message":"Successfully clicked search field","timestamp":"2024-11-25T15:54:27.155Z"}
+{"level":"info","message":"Search field focus verified","timestamp":"2024-11-25T15:54:27.162Z"}
+{"level":"info","message":"Cleared existing search text","timestamp":"2024-11-25T15:54:28.178Z"}
+{"level":"info","message":"Entered search keyword: keyword1","timestamp":"2024-11-25T15:54:28.240Z"}
+{"level":"info","message":"Triggered search","timestamp":"2024-11-25T15:54:28.262Z"}
+{"level":"info","message":"Processing column for keyword: keyword2","timestamp":"2024-11-25T15:54:30.267Z"}
+{"level":"info","message":"Looking for search field...","timestamp":"2024-11-25T15:54:30.268Z"}
+{"level":"info","message":"All required directories and files verified","timestamp":"2024-11-25T15:58:54.346Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T15:58:54.348Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T15:59:00.739Z"}
+{"level":"info","message":"Cleared existing cookies","timestamp":"2024-11-25T15:59:00.746Z"}
+{"level":"warn","message":"Failed to add cookie guest_id_marketing for domain .x.com:","timestamp":"2024-11-25T15:59:00.755Z"}
+{"level":"warn","message":"Failed to add cookie guest_id_ads for domain .x.com:","timestamp":"2024-11-25T15:59:00.760Z"}
+{"level":"warn","message":"Failed to add cookie guest_id for domain .x.com:","timestamp":"2024-11-25T15:59:00.764Z"}
+{"level":"warn","message":"Failed to add cookie personalization_id for domain .x.com:","timestamp":"2024-11-25T15:59:00.767Z"}
+{"level":"warn","message":"Failed to add cookie gt for domain .x.com:","timestamp":"2024-11-25T15:59:00.778Z"}
+{"level":"warn","message":"Failed to add cookie _twitter_sess for domain .x.com:","timestamp":"2024-11-25T15:59:00.781Z"}
+{"level":"warn","message":"Failed to add cookie kdt for domain .x.com:","timestamp":"2024-11-25T15:59:00.784Z"}
+{"level":"warn","message":"Failed to add cookie auth_token for domain .x.com:","timestamp":"2024-11-25T15:59:00.789Z"}
+{"level":"warn","message":"Failed to add cookie ct0 for domain .x.com:","timestamp":"2024-11-25T15:59:00.794Z"}
+{"level":"warn","message":"Failed to add cookie att for domain .x.com:","timestamp":"2024-11-25T15:59:00.800Z"}
+{"level":"warn","message":"Failed to add cookie twid for domain .x.com:","timestamp":"2024-11-25T15:59:00.806Z"}
+{"level":"info","message":"Successfully loaded 4 cookies","timestamp":"2024-11-25T15:59:00.807Z"}
+{"level":"info","message":"Total cookies set: 3","timestamp":"2024-11-25T15:59:00.810Z"}
+{"level":"info","message":"Page refreshed to apply cookies","timestamp":"2024-11-25T15:59:06.121Z"}
+{"level":"info","message":"Starting column search...","timestamp":"2024-11-25T15:59:06.122Z"}
+{"level":"info","message":"No columns found initially, waiting 8 seconds...","timestamp":"2024-11-25T15:59:06.138Z"}
+{"level":"info","message":"Found 1 columns","timestamp":"2024-11-25T15:59:14.147Z"}
+{"level":"info","message":"Beginning to process 1 columns","timestamp":"2024-11-25T15:59:14.148Z"}
+{"level":"info","message":"Processing column 1 of 1","timestamp":"2024-11-25T15:59:14.148Z"}
+{"level":"info","message":"Processing column for keyword: $PNUT","timestamp":"2024-11-25T15:59:14.149Z"}
+{"level":"info","message":"Looking for search field...","timestamp":"2024-11-25T15:59:14.149Z"}
+{"level":"info","message":"Found search field with selector: [contenteditable=\"true\"]","timestamp":"2024-11-25T15:59:41.941Z"}
+{"level":"info","message":"Successfully clicked search field","timestamp":"2024-11-25T15:59:42.699Z"}
+{"level":"info","message":"Search field focus verified","timestamp":"2024-11-25T15:59:42.706Z"}
+{"level":"info","message":"Cleared existing search text","timestamp":"2024-11-25T15:59:43.736Z"}
+{"level":"info","message":"Entered search keyword: $PNUT","timestamp":"2024-11-25T15:59:43.779Z"}
+{"level":"info","message":"Attempting to submit search for keyword: $PNUT","timestamp":"2024-11-25T15:59:43.780Z"}
+{"level":"info","message":"Submitted search using Enter key","timestamp":"2024-11-25T15:59:43.807Z"}
+{"level":"info","message":"Processing column for keyword: crypto","timestamp":"2024-11-25T15:59:54.145Z"}
+{"level":"info","message":"Looking for search field...","timestamp":"2024-11-25T15:59:54.146Z"}
+{"level":"info","message":"Found search field with selector: [contenteditable=\"true\"]","timestamp":"2024-11-25T16:00:21.386Z"}
+{"level":"info","message":"Successfully clicked search field","timestamp":"2024-11-25T16:00:22.109Z"}
+{"level":"info","message":"Search field focus verified","timestamp":"2024-11-25T16:00:22.112Z"}
+{"level":"info","message":"Cleared existing search text","timestamp":"2024-11-25T16:00:23.146Z"}
+{"level":"info","message":"Entered search keyword: crypto","timestamp":"2024-11-25T16:00:23.192Z"}
+{"level":"info","message":"Attempting to submit search for keyword: crypto","timestamp":"2024-11-25T16:00:23.193Z"}
+{"level":"info","message":"Submitted search using Enter key","timestamp":"2024-11-25T16:00:23.227Z"}
+{"level":"info","message":"All required directories and files verified","timestamp":"2024-11-25T16:02:11.932Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T16:02:11.934Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T16:02:17.454Z"}
+{"level":"info","message":"Cleared existing cookies","timestamp":"2024-11-25T16:02:17.466Z"}
+{"level":"warn","message":"Failed to add cookie guest_id_marketing for domain .x.com:","timestamp":"2024-11-25T16:02:17.478Z"}
+{"level":"warn","message":"Failed to add cookie guest_id_ads for domain .x.com:","timestamp":"2024-11-25T16:02:17.483Z"}
+{"level":"warn","message":"Failed to add cookie guest_id for domain .x.com:","timestamp":"2024-11-25T16:02:17.489Z"}
+{"level":"warn","message":"Failed to add cookie personalization_id for domain .x.com:","timestamp":"2024-11-25T16:02:17.493Z"}
+{"level":"warn","message":"Failed to add cookie gt for domain .x.com:","timestamp":"2024-11-25T16:02:17.506Z"}
+{"level":"warn","message":"Failed to add cookie _twitter_sess for domain .x.com:","timestamp":"2024-11-25T16:02:17.513Z"}
+{"level":"warn","message":"Failed to add cookie kdt for domain .x.com:","timestamp":"2024-11-25T16:02:17.518Z"}
+{"level":"warn","message":"Failed to add cookie auth_token for domain .x.com:","timestamp":"2024-11-25T16:02:17.522Z"}
+{"level":"warn","message":"Failed to add cookie ct0 for domain .x.com:","timestamp":"2024-11-25T16:02:17.530Z"}
+{"level":"warn","message":"Failed to add cookie att for domain .x.com:","timestamp":"2024-11-25T16:02:17.540Z"}
+{"level":"warn","message":"Failed to add cookie twid for domain .x.com:","timestamp":"2024-11-25T16:02:17.548Z"}
+{"level":"info","message":"Successfully loaded 4 cookies","timestamp":"2024-11-25T16:02:17.549Z"}
+{"level":"info","message":"Total cookies set: 3","timestamp":"2024-11-25T16:02:17.553Z"}
+{"level":"info","message":"Page refreshed to apply cookies","timestamp":"2024-11-25T16:02:19.856Z"}
+{"level":"info","message":"Starting column search...","timestamp":"2024-11-25T16:02:19.856Z"}
+{"level":"info","message":"No columns found initially, waiting 8 seconds...","timestamp":"2024-11-25T16:02:19.867Z"}
+{"level":"info","message":"Found 1 columns","timestamp":"2024-11-25T16:02:27.878Z"}
+{"level":"info","message":"Beginning to process 1 columns","timestamp":"2024-11-25T16:02:27.879Z"}
+{"level":"info","message":"Processing column 1 of 1","timestamp":"2024-11-25T16:02:27.879Z"}
+{"level":"info","message":"Processing column for keyword: $PNUT","timestamp":"2024-11-25T16:02:27.880Z"}
+{"level":"info","message":"Looking for search field...","timestamp":"2024-11-25T16:02:27.880Z"}
+{"level":"info","message":"Found search field with selector: [contenteditable=\"true\"]","timestamp":"2024-11-25T16:02:55.559Z"}
+{"level":"info","message":"Successfully clicked search field","timestamp":"2024-11-25T16:02:56.313Z"}
+{"level":"info","message":"Search field focus verified","timestamp":"2024-11-25T16:02:56.319Z"}
+{"level":"info","message":"Cleared existing search text","timestamp":"2024-11-25T16:02:57.348Z"}
+{"level":"info","message":"Entered search keyword: $PNUT","timestamp":"2024-11-25T16:02:57.394Z"}
+{"level":"info","message":"Attempting to submit search for keyword: $PNUT","timestamp":"2024-11-25T16:02:57.394Z"}
+{"level":"error","message":"Error submitting search: Search button not found","stack":"Error: Search button not found\n    at submitSearch (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:151:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async searchAndScrapeColumn (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:232:29)\n    at async scrapeColumns (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:261:9)\n    at async main (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\index.js:15:5)","timestamp":"2024-11-25T16:02:58.439Z"}
+{"level":"info","message":"All required directories and files verified","timestamp":"2024-11-25T16:04:16.652Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T16:04:16.654Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T16:04:22.210Z"}
+{"level":"info","message":"Cleared existing cookies","timestamp":"2024-11-25T16:04:22.215Z"}
+{"level":"warn","message":"Failed to add cookie guest_id_marketing for domain .x.com:","timestamp":"2024-11-25T16:04:22.227Z"}
+{"level":"warn","message":"Failed to add cookie guest_id_ads for domain .x.com:","timestamp":"2024-11-25T16:04:22.231Z"}
+{"level":"warn","message":"Failed to add cookie guest_id for domain .x.com:","timestamp":"2024-11-25T16:04:22.240Z"}
+{"level":"warn","message":"Failed to add cookie personalization_id for domain .x.com:","timestamp":"2024-11-25T16:04:22.245Z"}
+{"level":"warn","message":"Failed to add cookie gt for domain .x.com:","timestamp":"2024-11-25T16:04:22.251Z"}
+{"level":"warn","message":"Failed to add cookie _twitter_sess for domain .x.com:","timestamp":"2024-11-25T16:04:22.255Z"}
+{"level":"warn","message":"Failed to add cookie kdt for domain .x.com:","timestamp":"2024-11-25T16:04:22.259Z"}
+{"level":"warn","message":"Failed to add cookie auth_token for domain .x.com:","timestamp":"2024-11-25T16:04:22.262Z"}
+{"level":"warn","message":"Failed to add cookie ct0 for domain .x.com:","timestamp":"2024-11-25T16:04:22.267Z"}
+{"level":"warn","message":"Failed to add cookie att for domain .x.com:","timestamp":"2024-11-25T16:04:22.273Z"}
+{"level":"warn","message":"Failed to add cookie twid for domain .x.com:","timestamp":"2024-11-25T16:04:22.279Z"}
+{"level":"info","message":"Successfully loaded 4 cookies","timestamp":"2024-11-25T16:04:22.279Z"}
+{"level":"info","message":"Total cookies set: 3","timestamp":"2024-11-25T16:04:22.283Z"}
+{"level":"info","message":"Page refreshed to apply cookies","timestamp":"2024-11-25T16:04:25.507Z"}
+{"level":"info","message":"Starting column search...","timestamp":"2024-11-25T16:04:25.507Z"}
+{"level":"info","message":"No columns found initially, waiting 8 seconds...","timestamp":"2024-11-25T16:04:25.533Z"}
+{"level":"info","message":"Found 1 columns","timestamp":"2024-11-25T16:04:33.548Z"}
+{"level":"info","message":"Beginning to process 1 columns","timestamp":"2024-11-25T16:04:33.549Z"}
+{"level":"info","message":"Processing column 1 of 1","timestamp":"2024-11-25T16:04:33.549Z"}
+{"level":"info","message":"Processing column for keyword: $PNUT","timestamp":"2024-11-25T16:04:33.550Z"}
+{"level":"info","message":"Looking for search field...","timestamp":"2024-11-25T16:04:33.550Z"}
+{"level":"info","message":"Found search field with selector: [contenteditable=\"true\"]","timestamp":"2024-11-25T16:05:01.277Z"}
+{"level":"info","message":"Successfully clicked search field","timestamp":"2024-11-25T16:05:02.034Z"}
+{"level":"info","message":"Search field focus verified","timestamp":"2024-11-25T16:05:02.040Z"}
+{"level":"info","message":"Cleared existing search text","timestamp":"2024-11-25T16:05:03.070Z"}
+{"level":"info","message":"Entered search keyword: $PNUT","timestamp":"2024-11-25T16:05:03.118Z"}
+{"level":"info","message":"Attempting to submit search for keyword: $PNUT","timestamp":"2024-11-25T16:05:03.118Z"}
+{"level":"error","message":"Error submitting search: Search button not found","stack":"Error: Search button not found\n    at submitSearch (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:151:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async searchAndScrapeColumn (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:232:29)\n    at async scrapeColumns (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\scraper\\columnScraper.js:261:9)\n    at async main (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\index.js:15:5)","timestamp":"2024-11-25T16:05:04.169Z"}
+{"level":"info","message":"All required directories and files verified","timestamp":"2024-11-25T16:06:23.113Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T16:06:23.115Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T16:06:29.172Z"}
+{"level":"info","message":"Cleared existing cookies","timestamp":"2024-11-25T16:06:29.178Z"}
+{"level":"warn","message":"Failed to add cookie guest_id_marketing for domain .x.com:","timestamp":"2024-11-25T16:06:29.189Z"}
+{"level":"warn","message":"Failed to add cookie guest_id_ads for domain .x.com:","timestamp":"2024-11-25T16:06:29.194Z"}
+{"level":"warn","message":"Failed to add cookie guest_id for domain .x.com:","timestamp":"2024-11-25T16:06:29.197Z"}
+{"level":"warn","message":"Failed to add cookie personalization_id for domain .x.com:","timestamp":"2024-11-25T16:06:29.205Z"}
+{"level":"warn","message":"Failed to add cookie gt for domain .x.com:","timestamp":"2024-11-25T16:06:29.212Z"}
+{"level":"warn","message":"Failed to add cookie _twitter_sess for domain .x.com:","timestamp":"2024-11-25T16:06:29.219Z"}
+{"level":"warn","message":"Failed to add cookie kdt for domain .x.com:","timestamp":"2024-11-25T16:06:29.223Z"}
+{"level":"warn","message":"Failed to add cookie auth_token for domain .x.com:","timestamp":"2024-11-25T16:06:29.226Z"}
+{"level":"warn","message":"Failed to add cookie ct0 for domain .x.com:","timestamp":"2024-11-25T16:06:29.231Z"}
+{"level":"warn","message":"Failed to add cookie att for domain .x.com:","timestamp":"2024-11-25T16:06:29.237Z"}
+{"level":"warn","message":"Failed to add cookie twid for domain .x.com:","timestamp":"2024-11-25T16:06:29.241Z"}
+{"level":"info","message":"Successfully loaded 4 cookies","timestamp":"2024-11-25T16:06:29.242Z"}
+{"level":"info","message":"Total cookies set: 3","timestamp":"2024-11-25T16:06:29.244Z"}
+{"level":"info","message":"Page refreshed to apply cookies","timestamp":"2024-11-25T16:06:34.021Z"}
+{"level":"info","message":"Starting column search...","timestamp":"2024-11-25T16:06:34.022Z"}
+{"level":"info","message":"No columns found initially, waiting 8 seconds...","timestamp":"2024-11-25T16:06:34.031Z"}
+{"level":"info","message":"Found 0 columns","timestamp":"2024-11-25T16:06:42.050Z"}
+{"level":"info","message":"All required directories and files verified","timestamp":"2024-11-25T16:07:08.244Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T16:07:08.246Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T16:07:20.979Z"}
+{"level":"info","message":"Cleared existing cookies","timestamp":"2024-11-25T16:07:20.989Z"}
+{"level":"warn","message":"Failed to add cookie guest_id_marketing for domain .x.com:","timestamp":"2024-11-25T16:07:20.996Z"}
+{"level":"warn","message":"Failed to add cookie guest_id_ads for domain .x.com:","timestamp":"2024-11-25T16:07:21.000Z"}
+{"level":"warn","message":"Failed to add cookie guest_id for domain .x.com:","timestamp":"2024-11-25T16:07:21.007Z"}
+{"level":"warn","message":"Failed to add cookie personalization_id for domain .x.com:","timestamp":"2024-11-25T16:07:21.010Z"}
+{"level":"warn","message":"Failed to add cookie gt for domain .x.com:","timestamp":"2024-11-25T16:07:21.016Z"}
+{"level":"warn","message":"Failed to add cookie _twitter_sess for domain .x.com:","timestamp":"2024-11-25T16:07:21.022Z"}
+{"level":"warn","message":"Failed to add cookie kdt for domain .x.com:","timestamp":"2024-11-25T16:07:21.025Z"}
+{"level":"warn","message":"Failed to add cookie auth_token for domain .x.com:","timestamp":"2024-11-25T16:07:21.028Z"}
+{"level":"warn","message":"Failed to add cookie ct0 for domain .x.com:","timestamp":"2024-11-25T16:07:21.033Z"}
+{"level":"warn","message":"Failed to add cookie att for domain .x.com:","timestamp":"2024-11-25T16:07:21.039Z"}
+{"level":"warn","message":"Failed to add cookie twid for domain .x.com:","timestamp":"2024-11-25T16:07:21.044Z"}
+{"level":"info","message":"Successfully loaded 4 cookies","timestamp":"2024-11-25T16:07:21.044Z"}
+{"level":"info","message":"Total cookies set: 3","timestamp":"2024-11-25T16:07:21.047Z"}
+{"level":"info","message":"Page refreshed to apply cookies","timestamp":"2024-11-25T16:07:24.899Z"}
+{"level":"info","message":"Starting column search...","timestamp":"2024-11-25T16:07:24.900Z"}
+{"level":"info","message":"No columns found initially, waiting 8 seconds...","timestamp":"2024-11-25T16:07:24.923Z"}
+{"level":"info","message":"All required directories and files verified","timestamp":"2024-11-25T16:07:33.984Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T16:07:33.986Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T16:07:39.958Z"}
+{"level":"info","message":"Cleared existing cookies","timestamp":"2024-11-25T16:07:39.963Z"}
+{"level":"warn","message":"Failed to add cookie guest_id_marketing for domain .x.com:","timestamp":"2024-11-25T16:07:39.968Z"}
+{"level":"warn","message":"Failed to add cookie guest_id_ads for domain .x.com:","timestamp":"2024-11-25T16:07:39.976Z"}
+{"level":"warn","message":"Failed to add cookie guest_id for domain .x.com:","timestamp":"2024-11-25T16:07:39.980Z"}
+{"level":"warn","message":"Failed to add cookie personalization_id for domain .x.com:","timestamp":"2024-11-25T16:07:39.984Z"}
+{"level":"warn","message":"Failed to add cookie gt for domain .x.com:","timestamp":"2024-11-25T16:07:39.994Z"}
+{"level":"warn","message":"Failed to add cookie _twitter_sess for domain .x.com:","timestamp":"2024-11-25T16:07:39.997Z"}
+{"level":"warn","message":"Failed to add cookie kdt for domain .x.com:","timestamp":"2024-11-25T16:07:40.001Z"}
+{"level":"warn","message":"Failed to add cookie auth_token for domain .x.com:","timestamp":"2024-11-25T16:07:40.005Z"}
+{"level":"warn","message":"Failed to add cookie ct0 for domain .x.com:","timestamp":"2024-11-25T16:07:40.011Z"}
+{"level":"warn","message":"Failed to add cookie att for domain .x.com:","timestamp":"2024-11-25T16:07:40.017Z"}
+{"level":"warn","message":"Failed to add cookie twid for domain .x.com:","timestamp":"2024-11-25T16:07:40.022Z"}
+{"level":"info","message":"Successfully loaded 4 cookies","timestamp":"2024-11-25T16:07:40.023Z"}
+{"level":"info","message":"Total cookies set: 3","timestamp":"2024-11-25T16:07:40.028Z"}
+{"level":"info","message":"Page refreshed to apply cookies","timestamp":"2024-11-25T16:07:54.537Z"}
+{"level":"info","message":"Starting column search...","timestamp":"2024-11-25T16:07:54.538Z"}
+{"level":"info","message":"Found 1 columns","timestamp":"2024-11-25T16:07:54.549Z"}
+{"level":"info","message":"Beginning to process 1 columns","timestamp":"2024-11-25T16:07:54.550Z"}
+{"level":"info","message":"Processing column 1 of 1","timestamp":"2024-11-25T16:07:54.550Z"}
+{"level":"info","message":"Processing column for keyword: $PNUT","timestamp":"2024-11-25T16:07:54.551Z"}
+{"level":"info","message":"Looking for search field...","timestamp":"2024-11-25T16:07:54.552Z"}
+{"level":"info","message":"Found search field with selector: [contenteditable=\"true\"]","timestamp":"2024-11-25T16:08:21.979Z"}
+{"level":"info","message":"Successfully clicked search field","timestamp":"2024-11-25T16:08:22.735Z"}
+{"level":"info","message":"Search field focus verified","timestamp":"2024-11-25T16:08:22.742Z"}
+{"level":"info","message":"Cleared existing search text","timestamp":"2024-11-25T16:08:23.765Z"}
+{"level":"info","message":"Entered search keyword: $PNUT","timestamp":"2024-11-25T16:08:23.829Z"}
+{"level":"info","message":"Attempting to submit search for keyword: $PNUT","timestamp":"2024-11-25T16:08:23.829Z"}
+{"level":"info","message":"Found submit query button","timestamp":"2024-11-25T16:08:24.874Z"}
+{"level":"info","message":"Clicked submit query button","timestamp":"2024-11-25T16:08:25.672Z"}
+{"level":"info","message":"Processing column for keyword: crypto","timestamp":"2024-11-25T16:08:29.678Z"}
+{"level":"info","message":"Looking for search field...","timestamp":"2024-11-25T16:08:29.679Z"}
