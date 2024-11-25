@@ -1,0 +1,36 @@
+{"level":"info","message":"Created directory: data","timestamp":"2024-11-25T15:28:55.544Z"}
+{"level":"info","message":"Created directory: data/cookies","timestamp":"2024-11-25T15:28:55.550Z"}
+{"level":"info","message":"Created directory: data/output","timestamp":"2024-11-25T15:28:55.551Z"}
+{"level":"info","message":"All required directories verified","timestamp":"2024-11-25T15:28:55.551Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T15:28:55.552Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T15:29:00.689Z"}
+{"level":"info","message":"Cookies loaded successfully","timestamp":"2024-11-25T15:29:00.691Z"}
+{"level":"info","message":"Found 0 columns","timestamp":"2024-11-25T15:29:08.722Z"}
+{"level":"info","message":"All required directories verified","timestamp":"2024-11-25T15:31:27.038Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T15:31:27.040Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T15:31:31.930Z"}
+{"level":"info","message":"Cookies loaded successfully","timestamp":"2024-11-25T15:31:31.931Z"}
+{"level":"info","message":"Found 0 columns","timestamp":"2024-11-25T15:31:39.954Z"}
+{"level":"info","message":"All required directories verified","timestamp":"2024-11-25T15:33:20.332Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T15:33:20.334Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T15:33:25.995Z"}
+{"level":"info","message":"Cookies loaded successfully","timestamp":"2024-11-25T15:33:25.996Z"}
+{"level":"info","message":"Found 0 columns","timestamp":"2024-11-25T15:33:34.018Z"}
+{"level":"info","message":"All required directories verified","timestamp":"2024-11-25T15:35:11.690Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T15:35:11.692Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T15:35:17.640Z"}
+{"level":"error","message":"Failed to load cookies: No cookie files found in data/cookies directory","stack":"Error: No cookie files found in data/cookies directory\n    at loadCookies (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\auth\\cookies.js:42:13)\n    at async main (C:\\Users\\c0llide\\Documents\\00_Growgami\\00_github_projects\\x-search-and-scrape\\src\\index.js:14:5)","timestamp":"2024-11-25T15:35:17.641Z"}
+{"level":"info","message":"Created cookies.txt template","timestamp":"2024-11-25T15:36:17.614Z"}
+{"level":"info","message":"All required directories and files verified","timestamp":"2024-11-25T15:36:17.616Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T15:36:17.617Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T15:36:23.211Z"}
+{"level":"info","message":"Cleared existing cookies","timestamp":"2024-11-25T15:36:23.217Z"}
+{"level":"warn","message":"Cookie file cookies.txt is empty or contains only comments","timestamp":"2024-11-25T15:36:23.220Z"}
+{"level":"info","message":"All required directories and files verified","timestamp":"2024-11-25T15:36:48.997Z"}
+{"level":"info","message":"Initializing Firefox browser...","timestamp":"2024-11-25T15:36:48.999Z"}
+{"level":"info","message":"Firefox browser initialized successfully","timestamp":"2024-11-25T15:36:54.554Z"}
+{"level":"info","message":"Cleared existing cookies","timestamp":"2024-11-25T15:36:54.565Z"}
+{"level":"info","message":"Successfully loaded 12 cookies","timestamp":"2024-11-25T15:36:54.628Z"}
+{"level":"info","message":"Total cookies set: 8","timestamp":"2024-11-25T15:36:54.633Z"}
+{"level":"info","message":"Page refreshed to apply cookies","timestamp":"2024-11-25T15:36:56.967Z"}
+{"level":"info","message":"Found 3 columns","timestamp":"2024-11-25T15:37:05.001Z"}

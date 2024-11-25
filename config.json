@@ -1,0 +1,23 @@
+{
+  "auth": {
+    "cookiesPath": "./data/cookies"
+  },
+  "scraping": {
+    "quotaLimit": 100,
+    "scrollDelay": 1000,
+    "baseUrl": "https://pro.twitter.com",
+    "keywords": [
+      "keyword1",
+      "keyword2"
+    ]
+  },
+  "output": {
+    "dataPath": "./data"
+  },
+  "selectors": {
+    "columnContainer": "",
+    "searchInput": "",
+    "tweetContainer": "",
+    "scrollElement": ""
+  }
+} 

@@ -1,27 +1,20 @@
-# Project Name
+# X Pro Scraper Bot
 
-Brief description of your project goes here.
+An automated bot for searching, scrolling, and scraping columns on TweetDeck/X Pro (pro.twitter.com).
 
-## Getting Started
+## Features
 
-Instructions for setting up and running the project locally.
+- Cookie-based authentication for X Pro
+- Automated column identification and searching
+- Configurable search keywords
+- Automated scrolling and tweet scraping
+- Quota-based scraping limits
+- JSON data export filtered by keywords
 
-### Prerequisites
+## Prerequisites
 
-What things you need to install and how to install them.
+- Node.js (v16 or higher)
+- A valid X Pro account
+- Saved cookies for authentication
 
-### Installing
-
-Step by step installation guide.
-
-## Usage
-
-Examples of how to use your project.
-
-## Contributing
-
-Instructions for how to contribute to the project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+## Project Structure 
